@@ -32,23 +32,26 @@ header {
 
 
 main {
-    width: 80%;
+    width: 70%;
     background-color:#FAF9F6;
     margin: auto;
+    border-radius: 10px;
 }
 
 main > h2 {
-    font-family: 'Italianno', cursive;
-    text-shadow: 3px 2px 4px #10288C;
-    font-size: 2.2em;
+    font-family: "italianno", cursive;
+    text-shadow: 3px 1px 4px #10288C;
+    font-size: 2.3em;
     text-align: center;
     color: #fff;
     
 }
 
 main > p {
+    padding: 8px;
+    color: #10288C;
     font-family: 'Poppins', sans-serif;
-    font-size: 1em;
+    font-size: 0.7em;
     text-align: justify;
     text-indent: 10px;
     margin: 10px;
@@ -57,5 +60,7 @@ main > p {
 footer {
     text-align: center;
     font-size: 2em;
-    
+    color: #10288C;
+    font-family: 'Italianno', cursive;
+
 }
