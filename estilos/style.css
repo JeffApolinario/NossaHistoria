@@ -16,27 +16,31 @@ html, body {
     height: 100%;
 }
 
+body {
+    background-color:#CBE2FE
+}
+
 header {
     background-color: #CBE2FE;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align : center;
     padding: 20px;
     font-family: 'Italianno', cursive;
     font-size: 1.5em;
-    text-shadow: 3px 0px 4px #10288C ;
+    text-shadow: 3px 2px 4px #10288C ;
 }
 
 
 main {
     width: 80%;
-    background-color:#CBE2FE;
+    background-color:#FAF9F6;
     margin: auto;
 }
 
 main > h2 {
     font-family: 'Italianno', cursive;
-    text-shadow: 3px 0px 4px #10288C;
-    font-size: 2em;
+    text-shadow: 3px 2px 4px #10288C;
+    font-size: 2.2em;
     text-align: center;
     color: #fff;
     
@@ -45,6 +49,13 @@ main > h2 {
 main > p {
     font-family: 'Poppins', sans-serif;
     font-size: 1em;
+    text-align: justify;
     text-indent: 10px;
     margin: 10px;
+}
+
+footer {
+    text-align: center;
+    font-size: 2em;
+    
 }
