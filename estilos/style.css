@@ -32,7 +32,7 @@ header {
 
 
 main {
-    width: 80%;
+    width: 90%;
     background-color:#FAF9F6;
     margin: auto;
     border-radius: 10px;
@@ -42,15 +42,17 @@ main {
 }
 
 main > h2 {
-    font-family: "italianno", cursive;
-    text-shadow: 3px 1px 4px #10288C;
-    font-size: 2.4em;
+    color:  #10288C;
+    text-shadow: 0px 10px 10px #ccc9c9;
+    text-align: 0;
     text-align: center;
-    color: #fff;
+    font-family: "italianno", cursive;
+    font-size: 2.5em;
+    margin-top: 5px;
 }
 
 main > p {
-    padding: 8px;
+    padding: 0 8px;
     color: #10288C;
     font-family: 'Poppins', sans-serif;
     font-size: 1em;
@@ -60,20 +62,92 @@ main > p {
     margin: 10px;
 }
 
+/* Configuração das Fotos */
 section#img001 {
-    background-image: url(../imagens/Primeiro-Presente-600.jpeg);
-    height: 100vh;
+    background-image: url(../imagens/Primeiro-Presente.jpeg);
+    width: 100%;
+    height: 60vh;
     background-size: cover;
-    display:block;
     background-repeat: no-repeat;
-    background-position: center center;
-    height: 100vh;
+    background-position: center top;
 }
 
-footer > p {
+section#img002 {
+    background-image: url(../imagens/Primeiro-foto.jpeg);
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+section#img003 {
+    background-image: url(../imagens/Segunda-foto.jpeg);
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+section#img004 {
+    background-image: url(../imagens/foto-uber.jpg);
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section#img005 {
+    background-image: url(../imagens/foto-show.jpeg);
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+section#img006 {
+    background-image: url(../imagens/foto-show2.jpeg);
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 10px;
+}
+
+section#img007 {
+    background-image: url(../imagens/aliancas.jpeg);
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+
+legend {
+    color:  #10288C;
+    text-align: center;
+    font-family: "italianno", cursive;
+    font-size: 1.8em;
+}
+footer > p.frase{
     text-align: center;
     font-size: 2.3em;
     color: #10288C;
     font-family: 'Italianno', cursive;
 
+}
+
+footer > p {
+    text-align: center;
+    color: #10288C;
+    font-size: 1em;
+
+}
+
+footer > p > a {
+    text-decoration: none;
 }

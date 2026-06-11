@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 768px) {
+
+    section#img001 {
+        background-image: url(../imagens/Primeiro-Presente.jpeg);
+        width: 100%;
+        height: 80vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        margin-top: 20px;
+    }
+
+    section#img002 {
+        background-image: url(../imagens/Primeiro-foto.jpeg);
+        width: 100%;
+        height: 80vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    
+    section#img003 {
+        background-image: url(../imagens/Segunda-foto.jpeg);
+        width: 100%;
+        height: 80vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+
+    }
+    
+    section#img004 {
+        background-image: url(../imagens/foto-uber.jpg);
+        width: 100%;
+        height: 80vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    
+    section#img005 {
+        background-image: url(../imagens/foto-show.jpeg);
+        width: 100%;
+        height: 80vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    
+    section#img006 {
+        background-image: url(../imagens/foto-show2.jpeg);
+        width: 100%;
+        height: 80vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    
+    section#img007 {
+        background-image: url(../imagens/aliancas.jpeg);
+        width: 100%;
+        height: 80vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        margin-bottom: 10px ;
+    }
+    
+} 
+
+
