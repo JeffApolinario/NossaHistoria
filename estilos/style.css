@@ -59,7 +59,7 @@ main > p {
     line-height: 1.7em;
     text-align: justify;
     text-indent: 10px;
-    margin: 10px;
+    padding-bottom: 10px;
 }
 
 /* Configuração das Fotos */
@@ -133,21 +133,35 @@ legend {
     font-family: "italianno", cursive;
     font-size: 1.8em;
 }
+
+/* Configuração de Rodapé */
+footer {
+    padding: 10px;
+}
+
 footer > p.frase{
     text-align: center;
     font-size: 2.3em;
     color: #10288C;
     font-family: 'Italianno', cursive;
-
 }
 
 footer > p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     color: #10288C;
     font-size: 1em;
-
 }
 
 footer > p > a {
     text-decoration: none;
+    color: #10288C;
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+}
+
+footer > p > a:visited  {
+    color: #10288C;
 }
