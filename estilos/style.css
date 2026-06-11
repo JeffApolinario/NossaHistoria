@@ -36,6 +36,9 @@ main {
     background-color:#FAF9F6;
     margin: auto;
     border-radius: 10px;
+    box-shadow: 0px 0px 10px #10288C;
+    transition: width 1s, height 1s;
+    transition-timing-function: ease 0.8s;
 }
 
 main > h2 {
@@ -44,7 +47,6 @@ main > h2 {
     font-size: 2.4em;
     text-align: center;
     color: #fff;
-    
 }
 
 main > p {
@@ -57,6 +59,8 @@ main > p {
     text-indent: 10px;
     margin: 10px;
 }
+
+main
 
 footer > p {
     text-align: center;
