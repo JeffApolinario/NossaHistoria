@@ -102,6 +102,7 @@ section#img003 {
     height: 80vh;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
     margin-bottom: 10px;
 }
 
