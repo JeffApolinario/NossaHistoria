@@ -119,6 +119,7 @@ section#img005 {
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
     margin-bottom: 10px;
 }
 
@@ -140,7 +141,6 @@ section#img007 {
     background-position: bottom;
     background-repeat: no-repeat;
 }
-
 
 legend {
     color:  #10288C;
